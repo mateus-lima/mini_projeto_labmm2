@@ -1,0 +1,9 @@
+body {
+    background-image: url("img/bg.jpg") ;
+}
+
+#logo {
+    width: 40%;
+    position: center;
+}
+
