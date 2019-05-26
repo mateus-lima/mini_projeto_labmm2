@@ -11,7 +11,10 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Mapa</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Perfil</title>
   <link rel="icon" href="img/icon-01.png">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -46,7 +49,7 @@
           <a class="nav-link" href="stats.html">Estatísticas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mapa</a>
+          <a class="nav-link" href="map.html">Mapa</a>
         </li>
       </ul>
     </div>
@@ -58,6 +61,153 @@
     <h1 id="statstitle" class="font-weight-normal text-white">O Teu Perfil</h1>
   </div>
 </header>
-<script src="js/creative.js"></script>
+
+<div class="container emp-profile">
+  <form method="post">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="profile-img">
+          <img src="img/user1.jpg" alt=""/>
+          <a href="" class="file btn btn-lg" style="color: white; z-index: 33" >
+            Mudar Foto
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="profile-head">
+          <h5>
+            Sofia Bennington
+          </h5>
+          <h6>
+            Utilizadora desde: 14/07/2018
+          </h6>
+          <p class="proile-rating">Matosinhos, PT</p>
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <button class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Sobre</button>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a>
+            </li>-->
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Editar Perfil"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="profile-work">
+          <p class="text-uppercase">Os teus links sociais</p>
+          <a href="https://facebook.com" class="social" target="_blank">
+            <i class="fa-2x fab fa-facebook-f"></i>
+          </a><br/><br/>
+          <a href="https://www.instagram.com" class="social" target="_blank">
+            <i class="fa-2x fab fa-instagram"></i>
+          </a><br/><br/>
+          <a href="https://twitter.com" class="social" target="_blank">
+            <i class="fa-2x fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="tab-content profile-tab" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <label>ID de utilizadora</label>
+              </div>
+              <div class="col-md-6">
+                <p>Sofiamb95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Nome</label>
+              </div>
+              <div class="col-md-6">
+                <p>Sofia Marques Bennington</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Email</label>
+              </div>
+              <div class="col-md-6">
+                <p>sofiamb95@gmail.com</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Telefone</label>
+              </div>
+              <div class="col-md-6">
+                <p>912 345 678</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Nº Utilizadora</label>
+              </div>
+              <div class="col-md-6">
+                <p>12345</p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <label>Experience</label>
+              </div>
+              <div class="col-md-6">
+                <p>Expert</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Hourly Rate</label>
+              </div>
+              <div class="col-md-6">
+                <p>10$/hr</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Total Projects</label>
+              </div>
+              <div class="col-md-6">
+                <p>230</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>English Level</label>
+              </div>
+              <div class="col-md-6">
+                <p>Expert</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Availability</label>
+              </div>
+              <div class="col-md-6">
+                <p>6 months</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <label>Your Bio</label><br/>
+                <p>Your detail description</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
 </body>
 </html>
