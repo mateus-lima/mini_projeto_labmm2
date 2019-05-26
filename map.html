@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" xmlns:--hover="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Mapa</title>
+  <link rel="icon" href="img/icon-01.png">
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!--  Custom styles for this template
+    <link href="css/creative.css" rel="stylesheet">-->
+</head>
+<body>
+<!-- Navigation -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img ID="logo" src="img/logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="homepage.html" >Homepage
+            <!--<span class="sr-only">(current)</span>-->
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Perfil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stats.html">Estatísticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Mapa</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="text-center py-5 mb-4">
+  <div class="container">
+    <h1 id="statstitle" class="font-weight-normal text-white">O Teu Mapa</h1>
+  </div>
+</header>
+<div class="container-fluid" style="">
+  <div class="row">
+    <div class="col-sm-12" style="">
+      <div class="map-responsive">
+        <iframe
+          src="https://www.google.pt/maps/d/u/0/embed?mid=12doE6-4MEciwzZjhZu99EiUyoaON9hXf"
+          width="600" height="450" frameborder="0" style="border: 0" class="rounded" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="w3-display-bottomleft w3-container" style="position: fixed">
+      <a class="nav-link " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button id="favs" class="btn btn-success" style="margin: auto">
+          <i class="h4 fas fa-2x fa-star"><span class="h5 font-weight-normal"
+                                                style="font-family: Arial,sans-serif; margin: auto"> Favoritos</span></i>
+        </button>
+      </a>
+
+      <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">
+          <i class="fas fa-star" style="color: black"></i> Universidade Aveiro</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="">
+          <i class="fas fa-star" style="color: black"></i> Estação CP</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">
+          <i class="fas fa-home" style="color: black"></i> Loja Buga</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="js/creative.js"></script>
+</body>
+</html>

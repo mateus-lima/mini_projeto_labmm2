@@ -4,6 +4,125 @@ body {
 
 #logo {
     width: 40%;
-    position: center;
+    text-align: center;
 }
 
+#chat {
+    width: 70%;
+    margin: auto;
+}
+
+#navbar {
+    background-color:rgba(0, 0, 0, 0.9);
+}
+
+#statstitle {
+    margin-top: 3.5rem;
+    margin-bottom: -3%;
+}
+
+#favs {
+    margin: auto;
+    background-color: rgba(100, 176, 157, 1);
+    border: none;
+}
+
+#favs:hover {
+    background-color: rgba(0, 143, 131, 1);
+}
+
+#carousel {
+    max-width: 1920px;
+    max-height: 1080px;
+    padding: 0;
+}
+
+.fa-10x {
+    margin: 0.5rem;
+}
+
+h5 {
+    margin-top: -3%;
+}
+
+.box:hover {
+    box-shadow: 0 0 100px rgba(33,33,33,.5);
+}
+
+.fas {
+    color: white;
+}
+
+.card-title {
+    color: white;
+}
+
+.card {
+    background-image: url("img/bg_stats-01.png");
+}
+
+.modal1:hover {
+    text-decoration: none;
+}
+
+.raise:hover,
+.raise:focus {
+    transform: scale(1.03);
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:75vh;
+    position:relative;
+    height:100%;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+.animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+.carousel-caption {
+    background-color: rgba(3, 3, 3, .7)
+}
+
+/*.info {
+    background-color: rgba(1, 1, 1, .2);
+}*/
+
+.homeinfo {
+    text-align: justify;
+    margin: 1.5em
+}
+
+.divider {
+    width: 75%;
+    margin:auto;
+}
+
+#footer {
+    background-color: black;
+    height: 4em;
+    text-align: center;
+    color: white;
+    margin:auto;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 1em;
+}
